@@ -1,0 +1,228 @@
+.header_wrapper{
+	margin-bottom: 20px;
+	width: 100%;
+	background: #fff;
+}
+.header_wrapper .header{
+	font-size: 14px;
+    height: 146px;
+    line-height: 146px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #333;
+}
+.header .logo{
+	width: 160px;
+	height: 65px;
+	background:url(../images/logo1.png) no-repeat;
+	margin-top: 39px;
+	float: left;
+}
+.logo h1>a{
+	display: block;
+	width: 160px;
+	height: 65px;
+	text-indent: -999px;
+}
+.header h2{
+	margin-top: 65px;
+	font-size: 14px;
+	float: right;
+}
+h2 span{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	float: left;
+}
+h2 i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/headico.png) 0px 0px;
+	float: left;
+}
+h2 b{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+}
+.header_wrapper .showshadow{
+    background: url(../images/headerbg.png) 0 bottom repeat-x;
+    width: 100%;
+    height: 8px;
+}
+
+
+
+.main_wrapper{
+    height: 535px;
+    background: #fefefe url(../images/reg_bac.jpg) center 0 no-repeat;
+}
+.main{
+	width: 1200px;
+	height: 535px;
+	margin: 0 auto;
+	position: relative;
+}
+.main .register_form{
+	position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: 150px;
+    width: 298px;
+    padding: 30px 40px;
+    background: #fff;
+    border: solid 1px #e8e8e8;
+    box-shadow: 3px 3px 7px #eee;
+}
+form h3{   
+	 font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+form .txt{
+	border: solid 1px #e8e8e8;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 4px 0;
+}
+.txt>i{
+	    background-position: 0 0;
+}
+.regico{
+	display:inline;
+	width: 26px;
+    height: 26px;
+    padding-right: 4px;
+    background: url(../images/reg_form.gif) no-repeat;
+    margin: 0 4px 0 6px;
+    border-right: solid 1px #e8e8e8;
+    float: left;
+}
+.float_l{
+	display: inline;
+	float: left;
+}
+.float_r{
+	display: inline;
+	float: right;
+}
+.txt #txt{
+    width: 240px;
+    margin: 0 0 0 4px;
+    position: relative;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    color: #333;
+}
+form .password{
+    border: solid 1px #e8e8e8;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 4px 0;
+}
+.password>i{
+    background-position: -26px 0;
+}
+.password #pwd{
+    width: 240px;
+    margin: 0 0 0 4px;
+    position: relative;
+    border: none;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    color: #333;
+}
+form .auto_login{
+	color: #999;
+	padding: 7px 0 5px 0;
+}
+.auto_login>label{
+	cursor: pointer;
+}
+label .checkbox{
+    vertical-align: middle;
+    margin-right: 7px;
+}
+form .hint{
+    height: 30px;
+    color: #cc3d3d;
+}
+.auto_login>a{
+	color: #999;
+}
+form #btn{
+    width: 100%;
+    height: 48px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+form .form_over{
+	text-align: right;
+    margin: 20px 0 7px 0;
+}
+.form_over>a{
+	color: #669aca;
+}
+.login_others h4{
+	height: 20px;
+	position: relative;
+}
+h4 .underline{
+	position: absolute;
+    border-bottom: solid 1px #e8e8e8;
+    left: 0;
+    top: 8px;
+    width: 100%;
+    z-index: 1;
+}
+h4 .others{
+	position: relative;
+    background: #fff;
+    color: #999;
+    margin: 0 auto;
+    text-align: center;
+    width: 110px;
+    z-index: 2;
+}
+.login_others .others_way{
+    padding: 20px 25px 5px 25px;
+}
+.others_way>a{
+	display: block;
+    float: left;
+    width: 50%;
+}
+.others_way>a>span{
+	display: block;
+	width: 35px;
+    height: 35px;
+    background: url(../images/login.gif) no-repeat;
+    margin: 0 auto;
+    filter: alpha(opacity=50);
+    opacity: .5;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+
+#wx>span{
+    background-position: -35px 0;
+}
+#xl>span{
+    background-position: -70px 0;
+}
+.others_way>a:hover span{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}

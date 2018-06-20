@@ -1,0 +1,179 @@
+.banner_wrapper{
+	margin-top: 20px;
+}
+.banner_wrapper .banner{
+	width: 1200px;
+	margin: 0 auto;
+	height: 600px;
+	overflow: hidden;
+}
+.banner .slider{
+	position: relative;
+}
+.slider #slider{
+	height: 600px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#slider>li{
+	float: left;
+	width: 1200px;
+	height: 600px;
+}
+.slider #left,.slider #right{
+	position: absolute;
+	top: 272px;
+	width: 27px;
+	height: 66px;
+	text-align: center;
+	background: #000;
+	opacity: 0.2;
+	color: #fff;
+	line-height: 66px;
+	z-index: 2;
+	font-size: 24px;
+	display: none;
+}
+.slider #left{
+	left: 10px;
+}
+.slider #right{
+	right: 10px;
+}
+.slider #left:hover,.slider #right:hover{
+	opacity: 0.6;
+}
+
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main .special_offer{
+	width: 1200px;
+	overflow: hidden;
+	position: relative;
+}
+.special_offer h2{
+	width: 1200px;
+	height: 54px;
+    margin: 23px auto 10px;
+    position: relative;
+    overflow: hidden;
+}
+h2 .mid_line{
+	position: absolute;
+	border-bottom: 1px solid #e8e8e8;
+    top: 24px;
+    left: 0;
+    width: 1200px;
+    z-index: 1;  
+}
+h2>p{
+    width: 260px;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #333;
+    z-index: 2;
+    color: #999;
+    position: relative;
+}
+h2>p>span{
+	color: #666;
+	font-size: 16px;
+}
+.special_content .left,.special_offer .center,.special_offer .right{
+	width: 392px;
+	height: 498px;
+	float: left;
+}
+.img_bottom{
+	display: block;
+	margin-bottom: 12px;
+}
+.special_content .center{
+    margin: 0 12px;
+}
+.main .scroll_lunbo{
+	width: 1200px;
+	height: 329px;
+	margin: 30px auto 0;
+}
+.scroll_lunbo h2{
+	width: 1200px;
+	height: 54px;
+	margin: 0 auto 10px;
+	position: relative;
+}
+.scroll_lunbo .scroll_pro{
+	width: 1200px;
+	height: 265px;
+	position: relative;
+}
+.scroll_pro #scroll_pro{
+	height: 265px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#scroll_pro>li{
+	width: 160px;
+	height: 260px;
+	text-align: center;
+	margin: 5px 20px 0 20px;
+	float: left;
+}
+#scroll_pro>li>a{
+	color: #666;
+}
+#scroll_pro>li>a>img{
+	width: 160px;
+	height: 192px;
+}
+#scroll_pro>li>a>p{
+	width: 160px;
+	height: 44px;
+	overflow: hidden;
+    color: #555;
+}
+#scroll_pro>li .gray{
+	color: #ccc;
+}
+.scroll_pro #pre,.scroll_pro #next{
+	width: 17px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    cursor: pointer;
+}
+.scroll_pro #pre {
+	left: 0;
+}
+#pre .pre{
+	width: 17px;
+    height: 38px;
+    left: 0;
+    top: 100px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+	background: url(../images/pre_btn.png) no-repeat;
+}
+.scroll_pro #next{
+	right: 0;
+}
+#next .next{
+	width: 17px;
+    height: 38px;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+	background: url(../images/next_btn.png) no-repeat;
+}

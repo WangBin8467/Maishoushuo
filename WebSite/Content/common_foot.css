@@ -1,0 +1,320 @@
+.foot_wrapper{
+	width: 100%;
+	background: #eee;
+	margin-top: 30px;
+}
+.foot .foot_start{
+	width: 100%;
+    height: 272px;
+    background: #fff;
+    border-top: 1px solid #e8e8e8;
+}
+.foot_start .foot_start_content{
+	width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.foot_start_content .help_print{
+	padding-top: 10px;
+    height: 200px;
+    float: left;
+    width: 299px;
+    border-right: 1px solid #e8e8e8;
+}
+.help_print>ul{
+	float: left;
+    width: 149px;
+    margin-bottom: 10px;
+}
+
+.help_print>ul>li{
+	line-height: 25px;
+}
+.help_print>ul .margin_bt{
+	margin-bottom: 8px;
+}
+.foot_c{
+	color: #333;
+    font-size: 14px;
+}
+.help_print>ul>li>a:hover{
+	color: #333;
+}
+.foot_start_content .service_phone{
+	padding-top: 10px;
+    height: 200px;
+    float: left;
+    width: 299px;
+    border-right: 1px solid #e8e8e8;
+    text-align: center;
+}
+.service_phone>span{
+	display: block;
+    padding-top: 5px;
+}
+.service_phone h5{
+	line-height: 65px;
+    font-size: 24px;
+}
+.service_phone>p{
+	line-height: 30px;
+}
+.foot_start_content .foot_subscription{
+	text-align: center;
+    color: #333;
+    font-size: 14px;
+    padding-top: 10px;
+    height: 200px;
+    float: left;
+    width: 299px;
+    border-right: 1px solid #e8e8e8;
+}
+.foot_subscription p {
+    display: block;
+    padding-top: 5px;
+}
+.foot_subscription .subscription_dy{
+	margin-bottom: 20px;
+}
+.foot_subscription .subscription_email{
+	border-radius: 2px;
+    border: solid 1px #e8e8e8;
+    width: 173px;
+    height: 41px;
+    padding-left: 22px;
+    background: #f5f5f5;
+    line-height: 41px;
+    color:#6c6c6c;
+    font-size: 12px;
+}
+.foot_subscription .now_dy{
+	cursor: pointer;
+    width: 197px;
+    height: 49px;
+    background: #333;
+    color: #fff;
+    line-height: 49px;
+    margin: 25px auto 0;
+    border-radius: 2px;
+}
+.foot_start_content .down_main{
+	padding-left: 25px;
+    border-right: none;
+    text-align: center;
+    width: 275px;
+    padding-top: 10px;
+    height: 200px;
+    float: left;
+}
+.down_main .down_main_app{
+	margin-left: 20px;
+	text-align: center;
+	    float: left;
+    display: inline;
+}
+.down_main_app .down_app{
+	margin-top: 20px;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+}
+.down_main .down_main_wx{
+	text-align: center;
+	    float: right;
+    display: inline;
+}
+.down_main_wx .down_wx{
+	border: 1px solid #e8e8e8;
+    padding: 20px;
+    margin-top: 20px;
+}
+.down_main>p{
+    text-align: right;
+    line-height: 60px;
+    color: #999;
+}
+
+.foot .foot_end{
+	background: #414141;
+    width: 100%;
+    height: 280px;
+    min-width: 1200px;
+}
+.foot_end_top>ul{
+	height: 138px;
+    line-height: 138px;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    background: #414141;
+}
+.foot_end_top>ul>li{
+	float: left;
+    font-size: 18px;
+}
+.foot_end_top>ul>li>div{
+    position: relative;
+    top: 42px;
+    margin-right: 24px;
+    float: left;
+    width: 52px;
+    height: 52px;
+    background: url(../images/footer_icon.png) center;
+}
+.foot_end_top>ul>li .foot_ico{
+	background-position: right;
+}
+.foot_end_top>ul .foot_gaoshi{
+	width: 765px;
+    text-align: center;
+    position: relative;
+    left: 28px;
+}
+.foot_gaoshi>div{
+	position: relative;
+    left: 299px;
+}   
+.foot_end_top>ul>li .foot_ico2{
+	background-position: -52px 0;
+}
+.foot_end_top>ul>li .foot_ico3{
+	background-position: left;
+}
+.foot_end .foot_cut{
+	width: 100%;
+    height: 0;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #4d4d4d;
+}.foot_end .foot_end_over{
+	width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: #414141;
+    color: #999;
+}  
+.foot_end_over .foot_mt{
+	position: relative;
+    left: -10px;
+    float: left;
+    display: inline;
+}
+.foot_mt>ul>li{
+	text-align: center;
+    float: left;
+    height: 20px;
+    width: 72px;
+    border-left: 1px solid #999;
+    line-height: 20px;
+}
+.foot_mt>ul>li>a{
+	color: #999;
+}
+.foot_mt>ul>li>a:hover{
+	color: #ccc;
+}
+.foot_mt .foot_bf{
+	padding-left: 12px;
+}
+.foot_bf>p{
+	    line-height: 47px;
+}
+.foot_bf>span{
+	margin-right: 20px;
+}
+.foot_end_over .foot_over_cut{
+	margin: 5px 1px 0 170px;
+    height: 86px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #4d4d4d;
+    float: left;
+    display: inline;
+}
+.foot_end_over .foot_over_right{
+	float: right;
+    display: inline;
+}
+.foot_over_right .p{
+	text-align: center;
+    margin: 5px 0 23px;
+}
+.p>span{
+	font-size: 14px;
+}
+.foot_over_right>ul>li{
+	float: left;
+    padding: 0 17px;
+}
+.foot_over_right a{
+	display: block;
+	color: #999;
+}
+.foot_over_right a:hover{
+	color: #ccc;
+}
+.partner01>a{
+	width: 18px;
+    height: 20px;
+    background: url(../images/partner_icon.png);
+    background-position: 0 0;
+}
+.partner01>a:hover{
+	background: url(../images/footer_h.png);
+    background-position: 0 0;
+}
+.partner02>a{
+	font-style: italic;	
+}
+.partner02>a>span{
+	/*display: block;*/
+    float: left;
+    width: 31px;
+    height: 19px;
+    background: url(../images/partner_icon.png) no-repeat;
+    background-position: -199px 0;
+}
+.partner02>a .float_l{
+    float: left;
+    display: inline;
+}
+.partner02>a:hover span {
+    background: url(../images/footer_h.png);
+    background-position: -209px 0;
+}
+.partner03>a{
+    width: 68px;
+    height: 22px;
+    background: url(../images/footer.png);
+    background-position: 0 -24px;
+}
+.partner03>a:hover{
+    background-position: 0 0;
+}
+.partner04>a{
+    width: 72px;
+    height: 31px;
+    background: url(../images/partner_icon.png);
+    background-position: -127px 0;
+}
+.partner04>a:hover{
+    background: url(../images/footer_h.png);
+    background-position: -127px 0;
+}
+.partner05>a{
+    width: 60px;
+    height: 23px;
+    background: url(../images/partner_icon.png);
+    background-position: -66px 0;
+}
+.partner05>a:hover{
+    background: url(../images/footer_h.png);
+    background-position: -66px 0;
+}
+.partner06>a{
+    width: 77px;
+    height: 23px;
+    background: url(../images/footer.png);
+    background-position: -77px -23px;
+}
+.partner06>a:hover{
+    background-position: -77px 0;
+}
